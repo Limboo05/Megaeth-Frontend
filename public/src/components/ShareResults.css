@@ -1,0 +1,35 @@
+.share-container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 30px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.share-container h2 {
+  margin-bottom: 10px;
+  color: #2a5298;
+}
+
+.share-btn {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.3s ease-in-out;
+}
+
+.share-btn:hover {
+  background: linear-gradient(135deg, #2a5298, #1e3c72);
+}
+
+.share-status {
+  margin-top: 10px;
+  font-weight: 500;
+}

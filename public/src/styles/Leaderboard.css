@@ -1,0 +1,20 @@
+@import '../theme.css';
+
+.leaderboard-container {
+  composes: card;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.leaderboard-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-item.me {
+  font-weight: bold;
+  background: rgba(42, 82, 152, 0.1);
+  border-radius: var(--border-radius);
+}
