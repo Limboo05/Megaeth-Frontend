@@ -1,0 +1,14 @@
+@import '../theme.css';
+
+.dashboard-container {
+  padding: 2rem;
+}
+
+.profile-card {
+  composes: card;
+  margin-bottom: 2rem;
+}
+
+.start-quiz-btn {
+  composes: btn;
+}

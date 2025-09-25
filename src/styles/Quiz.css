@@ -1,0 +1,21 @@
+@import '../theme.css';
+
+.quiz-container {
+  composes: card;
+  margin: 2rem auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.quiz-option {
+  background: #f1f1f1;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.quiz-option:hover {
+  background: #e0e0e0;
+}
